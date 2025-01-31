@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>social media</title>
+
     <style>
+
           body{
             background-color:black;
             text-align: center;
+            justify-items: center;
             margin: 50px;
             border-radius: 50%;
         } 
@@ -15,24 +18,25 @@
         img{
             background-color: rgb(0, 0, 0);
             border-radius: 50%;
+            width: 100px;
+            height:100px ;
             color: aqua ;
-            margin: 30px;
-            
-            
-            
+            margin: 30px;        
         }
 
         .split{
-            background-color:black;
-            /* flex-direction: center; */
-            width: 100%;
-            flex-shrink: 20px;
+            background-color:green;
+            border: 50px  black;
+            border-radius: 50px;
+            display: flex;
+            align-items:center ;
+            justify-content: center;
+            width: 250px;
             padding: 20px;
            
         }
 
         
-
         .tag{
             
             color:aqua;
@@ -40,36 +44,48 @@
         }
 
         .button1{
-            background-color: white;
+            background-color: black;
             color: black;
             border: 2px solid #04aa6d;
+            border-radius: 20px;
             display: inline-block; 
+            width: 200px;
+            height: 30px;
+            padding: 10px;
         }
 
         .button1:hover{
             background-color: #04aa6d;
             color: white;
         }
-        
-
-       
+       a{
+        color: white;
+       }
 
     </style>
+
 </head>
+
 <body>
+
     <div class="split">
-            <figure><figcaption>
+            <figure>
+                    
                 <img src="https://plus.unsplash.com/premium_photo-1669223469766-130f869846e5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D" alt="">
+
                 <section class="tag">
-                <h1>timothy ogory</h1>    
-                    <address>jos plateau state</address>
+
+                    <h1>Timothy Ogory</h1>  
+
+                    <address>Jos Plateau State</address>
+                    
                     <br><br>
 
                     
-                    <div class="button1"><a href="https://github.com/">github</a></div>
+                    <div class="button1"><a href="https://github.com/">Github</a></div>
                     <br><br>
 
-                    <div class="button1"><a href="">frontend developer</a></div>
+                    <div class="button1"><a href="">Frontend Developer</a></div>
                     <br><br>
 
                     <div class="button1"><a href="https://x.com/OgoryTimothy?t=jUuqYrw_y8JAT_frnPmGiA&s=09">X</a></div>
@@ -77,8 +93,9 @@
                     
                 </section>
 
-            </figcaption></figure>
-            <section></section>
+            </figure>
+
+            <!-- <section></section> -->
     </div>
     
 </body>
